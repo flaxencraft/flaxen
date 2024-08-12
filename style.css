@@ -1,0 +1,81 @@
+body {
+    background-color:cyan;
+}
+
+.container {
+    background-color: rgb(0, 0, 255);
+    display: flex;
+}
+
+.container-element {
+    justify-content: center;
+}
+
+.element-li {
+    list-style-type: none;
+}
+
+.element-a {
+    color: purple;
+    text-decoration: none;
+}
+
+.element-a:hover {
+    background-color: rgb(60, 0, 60);
+    transition: 0.5s ease-in-out;
+}
+
+.element-p {
+    margin-right: 25;
+}
+
+.container-howtoplay {
+    justify-content:center;
+}
+
+.howtoplay-li {
+    list-style-type: none;
+}
+
+.howtoplay-a {
+    color: gray;
+    text-decoration: none;
+}
+
+.howtoplay-a:hover {
+    background-color: rgb(60, 60, 60);
+    transition: 0.5s ease-in-out;
+}
+
+.howtoplay-p {
+    margin-left:  15;
+}
+
+.skill-li {
+    list-style-type: none;
+}
+
+.skill-a {
+    color: orange;
+    text-decoration: none;
+}
+
+.skill-a:hover {
+    background-color: rgb(170, 40, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.skill-p {
+    margin-right: 85;
+}
+
+.biodata-container {
+    display: flex;
+    justify-content: center;
+}
+
+#biodata  {
+    background: blue;
+    width: 100px;
+    height: 20px;
+}

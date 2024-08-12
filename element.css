@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+.elmnt-container {
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+}
+
+.api-li {
+    list-style-type: none;
+}
+
+.api-a {
+    color: orange;
+    text-decoration: none;
+    font-size:x-large;
+    background-color: orangered;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.api-a:hover {
+    color: rgb(170, 70, 0);
+    background-image:linear-gradient(rgb(255, 170, 0), rgb(255, 70, 0));
+    transition: 0.5s ease-in-out;
+}
+
+.air-li {
+    list-style-type: none;
+}
+
+.air-a {
+    color: blue;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: rgb(0, 0, 150);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.air-a:hover {
+    color: rgb(0, 0, 150);
+    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 0, 150) );
+    transition: 0.5s ease-in-out;
+}
+
+.tanah-li {
+    list-style-type: none;
+}
+
+.tanah-a {
+    color: rgb(125, 90, 0);
+    text-decoration: none;
+    font-size: x-large;
+    background-color: rgb(50, 40, 0);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.tanah-a:hover {
+    color: rgb(50, 40, 0);
+    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 0, 150) );
+    transition: 0.5s ease-in-out;
+}
