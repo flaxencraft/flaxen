@@ -79,3 +79,7 @@ body {
     width: 100px;
     height: 20px;
 }
+img {
+    width: 50%;
+    height: 50%;
+}
