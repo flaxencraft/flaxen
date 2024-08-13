@@ -61,6 +61,6 @@ body {
 
 .tanah-a:hover {
     color: rgb(50, 40, 0);
-    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 0, 150) );
+    background-image: linear-gradient(rgb(125, 90, 0), rgb(50, 40, 0) );
     transition: 0.5s ease-in-out;
 }

@@ -9,6 +9,7 @@ body {
 
 .container-element {
     justify-content: center;
+    margin-left: 40px;
 }
 
 .element-li {
@@ -69,13 +70,35 @@ body {
     margin-right: 85;
 }
 
+.generasi-container {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    height: 48px;
+}
+
+.generasi-li {
+    list-style-type: none;
+    color: lightgreen;
+}
+
+.generasi-p { 
+    margin-right: 20px;
+}
+
 .biodata-container {
     display: flex;
     justify-content: center;
+    background-color: blue;
 }
 
 #biodata  {
-    background: blue;
-    width: 100px;
+    width: 100%;
     height: 20px;
+}
+
+.biodata {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
 }
