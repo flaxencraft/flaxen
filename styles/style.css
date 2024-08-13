@@ -10,10 +10,15 @@ body {
     display: flex;
 }
 
-.container-element {
+/* card container */
+.card {
+    text-align: center;
+}
+
+/* .container-element {
     justify-content: center;
     margin-left: 40px;
-}
+} */
 
 .element-li {
     list-style-type: none;
@@ -29,13 +34,9 @@ body {
     transition: 0.5s ease-in-out;
 }
 
-.element-p {
-    margin-right: 25;
-}
-
-.container-howtoplay {
+/* .container-howtoplay {
     justify-content:center;
-}
+} */
 
 .howtoplay-li {
     list-style-type: none;
@@ -73,12 +74,12 @@ body {
     margin-right: 85;
 }
 
-.generasi-container {
+/* .generasi-container {
     background-color: blue;
     display: flex;
     justify-content: center;
     height: 48px;
-}
+} */
 
 .generasi-li {
     list-style-type: none;
