@@ -1,3 +1,6 @@
+* {
+    font-family:fantasy;
+}
 body {
     background-color:cyan;
 }
@@ -96,9 +99,7 @@ body {
     width: 100%;
     height: 20px;
 }
-
-.biodata {
-    display: flex;
-    justify-content: center;
-    margin-left: 20px;
+img {
+    width: 50%;
+    height: 50%;
 }
